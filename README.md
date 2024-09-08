@@ -1,17 +1,17 @@
 # ccompile
-Compile C file easily without run code run one by one, just run or custom this code for general purpose
+Compile simple file programme dari C code dengan mudah, hanya untuk tujuan Umum
 
 # Info
 Linux Kernel Version
-Kali Linux / Termux can use it
+Kali Linux / Termux boleh guna
 
 # Run
-- open directory first
+- buka folder
 ```shell
 cd ccompile
 ```
 
-- run tool
+- jalankan tool
 ```shell
 bash run.sh
 ```
