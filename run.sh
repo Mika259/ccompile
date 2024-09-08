@@ -7,16 +7,15 @@ clear
 #output="output"
 
 # tambah hashtag di depan baris command di bawah untuk off input
-read -p "[+] Filename (test.c): " file;clear
+read -p "[Tool] - Filename (test.c): " file;clear
 
 compile () {
         if gcc $1 -o $2;then
-                echo "Compiler C Bash Execute -"
                 ./$2
         else
-                echo "Code Error.."
+                echo "[Tool] - Code Error.."
         fi
-        echo "";echo "Programme Finished..."
+        echo "";echo "[Tool] - Programme Finished..."
         rm $2
 }
 compile $file $output
